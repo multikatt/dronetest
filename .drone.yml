@@ -2,5 +2,4 @@ pipeline:
     build:
         image: busybox
         commands:
-          - /bin/echo
-          - hello
+          - /bin/echo hello
